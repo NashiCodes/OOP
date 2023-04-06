@@ -16,4 +16,8 @@ public class Carro {
 		Velocidade--;
 	}
 
+	public int getVelocidade() {
+		return this.Velocidade;
+	}
+
 }

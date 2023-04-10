@@ -13,7 +13,7 @@ public class Aula05 {
         System.out.println("velocidade da BMW: " + bmw.getVelocidade());
     }
 
-    public static void main(String[] args) {
+    public static void fPessoas() {
         final int NUM_PESSOAS = 5;
 
         Pessoa[] pessoas = new Pessoa[NUM_PESSOAS];
@@ -40,4 +40,8 @@ public class Aula05 {
 
     }
 
+    public static void main(String[] args) {
+        carros();
+        fPessoas();
+    }
 }

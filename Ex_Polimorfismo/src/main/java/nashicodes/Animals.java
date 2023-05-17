@@ -1,5 +1,7 @@
 package nashicodes;
 
-public abstract class Animals {
-    public abstract void fala();
+public interface Animals {
+    default void fala() {
+        System.out.println("...");
+    }
 }

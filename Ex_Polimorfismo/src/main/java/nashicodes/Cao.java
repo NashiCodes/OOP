@@ -1,7 +1,8 @@
 package nashicodes;
 
-public class Cao extends Animals{
-    public void fala(){
+public class Cao implements Animals {
+    @Override
+    public void fala() {
         System.out.println("Au au!");
     }
 }

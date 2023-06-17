@@ -37,7 +37,7 @@ public class Menu {
                 case 6 -> System.out.println("Saindo...");
                 default -> System.out.println("Operação inválida!");
             }
-            System.out.println("");
+            System.out.println();
         } while (operacao != 6);
     }
 
